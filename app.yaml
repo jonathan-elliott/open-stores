@@ -1,0 +1,8 @@
+application: open-stores
+version: 1
+runtime: python
+api_version: 1
+default_expiration: "1d"
+handlers:
+- url: /.*
+  script: imagesvr.py
